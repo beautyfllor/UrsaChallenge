@@ -39,7 +39,7 @@ public class ProdutoController {
 	public ModelAndView retornaFormCadProduto() {
 
 		ModelAndView mv = new ModelAndView("form_cad_produtos");
-		mv.addObject("time", new Produto());
+		mv.addObject("produto", new Produto());
 		return mv;
 	}
 	
