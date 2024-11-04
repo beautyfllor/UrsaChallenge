@@ -53,7 +53,7 @@ public class ProdutoController {
 		} else {
 			Produto p = new Produto();
 			p.setNm_produto(novo_produto.getNm_produto());
-			p.setVl_preco(novo_produto.getVl_preco());
+			p.setVl_produto(novo_produto.getVl_produto());
 			p.setDs_descricao(novo_produto.getDs_descricao());
 			p.setDs_categoria(novo_produto.getDs_categoria());
 
@@ -111,7 +111,7 @@ public class ProdutoController {
 				Produto produto1 = op.get();
 				
 				produto1.setNm_produto(produto.getNm_produto());
-				produto1.setVl_preco(produto.getVl_preco());
+				produto1.setVl_produto(produto.getVl_produto());
 				produto1.setDs_descricao(produto.getDs_descricao());
 				produto1.setDs_categoria(produto.getDs_categoria());
 				
